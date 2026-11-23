@@ -1,0 +1,46 @@
+{
+ "anchor": [
+  9,
+  "a5aaf196ce50292878a2029f84842a052f88e3df9b9d224450aa62cbd4c4be43"
+ ],
+ "artifact": "local-refusal-demo",
+ "counts": {
+  "escalation": 5,
+  "granted": 1,
+  "redaction": 4,
+  "refusals": 4
+ },
+ "files": {
+  "RUN-REPORT.md": "1d49c760752296d6d052364ab0504472173abe425d27a47b26a52a573a54f05f",
+  "commute-turn-plan-withheld.json": "a623829037ff79c38df7fca49c01cbf35afbd1661ff64c9c1af6504b8c91d64a",
+  "commute-turn-report.json": "cb1fca394d4f1948f121c94c6e29bc4f7f9c93a7227ce74cfc7aed080dc2c6ae",
+  "commute-turn-result.json": "798b975e5dee02c9cb67d55936a533a90a09b392aa911f34f885f042252cbfc0",
+  "commute-turn-view.json": "3fbe060e95b0e84d2d8ef7593be9f33722875b8303a81bf8e99d0355ced1e4ca",
+  "escalation-grants.json": "4ae453e09c11f5452e6be93ddd05adb8fecba5b42e398fddaf66bad2919eb5b4",
+  "escalation-transcript.json": "3c756de0c0f29a72cda97c95401bfaae85ebe4a617923ed5b9abf92e03efaf0f",
+  "filtered-result.json": "1707bdf9f01b39b6826952864e323574a7cd30bba1f4ec6f37f3cb5f57db8911",
+  "grants.json": "6b908823a40228b9a3321c599c2664b4b5816d490a5d1e1819fbe50eced24696",
+  "raw-tool-reply.txt": "ae0b2eb1bfbf6f4336d110348eababcdbf3f172a7f047d9cb53c3cd266115c40",
+  "receipts.jsonl": "adc390a391ec68975e1f55e44cc63d749d13ad54ca2615f3534a89f7df9f33b3",
+  "receipts.jsonl.key": "1653566d3964ade16ca55ed88eb50706f5b207efa589196a73f3038365b0c139",
+  "view-report.json": "c900565cfd69c249d5643f24b281139271ec67c15e805b1fd262a6f181f0b975",
+  "view.json": "42da286207a42b058ea239a96d1c6b3f1dec04fcf51c17be61523decb430f92e",
+  "work/escalation-grants.json": "4ae453e09c11f5452e6be93ddd05adb8fecba5b42e398fddaf66bad2919eb5b4",
+  "work/grants.json": "6b908823a40228b9a3321c599c2664b4b5816d490a5d1e1819fbe50eced24696"
+ },
+ "key_sha256": "1653566d3964ade16ca55ed88eb50706f5b207efa589196a73f3038365b0c139",
+ "receipts_sha256": "adc390a391ec68975e1f55e44cc63d749d13ad54ca2615f3534a89f7df9f33b3",
+ "result_exact": {
+  "suggested_times": [],
+  "summary": "Weekly summary: proposal work at Meridian Labs continues; the operator's schedule is open for the partnership work."
+ },
+ "result_fields": [
+  "summary",
+  "suggested_times"
+ ],
+ "version": "0.1.0",
+ "view_refs": [
+  "fact-works-at",
+  "fact-proposal"
+ ]
+}

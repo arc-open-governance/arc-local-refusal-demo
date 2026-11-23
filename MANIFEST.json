@@ -1,0 +1,108 @@
+{
+ "artifact": "local-refusal-demo-v0.1",
+ "builder": "local-refusal-demo build (muse-home-seat)",
+ "built": "2026-11-23",
+ "files": [
+  {
+   "bytes": 2210,
+   "path": "EXPECTED.json",
+   "sha256": "dff7f03cba219814e04ee4ee01bf411e77b2a8dc6112d1fe0ae4f6d53224cf27"
+  },
+  {
+   "bytes": 11358,
+   "path": "LICENSE",
+   "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+   "bytes": 6395,
+   "path": "README.md",
+   "sha256": "ec3d63b4f43766e166f3739f0f9c8a3802705a3ea243b52dbd9ab8d1f2fc8721"
+  },
+  {
+   "bytes": 3038,
+   "path": "demo/persona.json",
+   "sha256": "2fbd158dbae952046c6443b8434830bae5b3e5cdf6d2bf55c2410fc3ffce5707"
+  },
+  {
+   "bytes": 2060,
+   "path": "demo/policy.json",
+   "sha256": "e3dac8196453e82b13a152cb3eec704a8c81eb6de7d1fadcd00742572de10973"
+  },
+  {
+   "bytes": 2249,
+   "path": "demo/vendor/VENDORED.md",
+   "sha256": "22ab6cb7ceaa48e353d952194567b4776fccd17ab0f3d1c8ddabe45b6ade1fdb"
+  },
+  {
+   "bytes": 1188,
+   "path": "demo/vendor/arc_disclosure/__init__.py",
+   "sha256": "a8c67625987789390fad314e8cefe905a099a462eb9bd5b076f8d9f732d864b8"
+  },
+  {
+   "bytes": 9063,
+   "path": "demo/vendor/arc_disclosure/boundary.py",
+   "sha256": "25f7b131ca0c599626a658266b3f4fda928b99ccb5f82753897ccd125a96a9cb"
+  },
+  {
+   "bytes": 414,
+   "path": "demo/vendor/arc_disclosure/canon.py",
+   "sha256": "cc2afa8cdc17bd10e3d45ec281992bc1d79fe78d4883883b901b72a366a22c7a"
+  },
+  {
+   "bytes": 4659,
+   "path": "demo/vendor/arc_disclosure/classify.py",
+   "sha256": "a9619ceb9526bc2d78847ba22b8dbbdfc61b9b16a1d19164056a608fe199b725"
+  },
+  {
+   "bytes": 2947,
+   "path": "demo/vendor/arc_disclosure/combination.py",
+   "sha256": "760cb1590ee1a14cf4ee0c685bbf48d73c55149bb452a9640b622d9f2a5bc26b"
+  },
+  {
+   "bytes": 4031,
+   "path": "demo/vendor/arc_disclosure/egress.py",
+   "sha256": "cb60e86eb0d7cab50ac46b49264ba997f5da5a3203bbf84b4a9ea1b5954d7607"
+  },
+  {
+   "bytes": 4459,
+   "path": "demo/vendor/arc_disclosure/grants.py",
+   "sha256": "bcb649231cd5e22224715c3d1c2f2527a6dcf6da57b24bfa8b46701dc78a26d5"
+  },
+  {
+   "bytes": 4077,
+   "path": "demo/vendor/arc_disclosure/policy.py",
+   "sha256": "47e36bfd2c993783520e4bddb0812ecfc789d3bf01ec89c951e4e79a3e0e0a26"
+  },
+  {
+   "bytes": 3391,
+   "path": "demo/vendor/arc_disclosure/predicates.py",
+   "sha256": "111463799235c50007e59854334251b640ee7b4c0da4853225868fec441e3cca"
+  },
+  {
+   "bytes": 8928,
+   "path": "demo/vendor/arc_disclosure/receipts.py",
+   "sha256": "10024dd06f059f12b64d4ecba4e03c5f2b8ad99bff4cd8df6383e1054272358d"
+  },
+  {
+   "bytes": 9588,
+   "path": "demo/vendor/arc_disclosure/secrets.py",
+   "sha256": "523c4226856412d3f4f98a9870ac6acd9c2eb3d6040c9079433c113cd84abb09"
+  },
+  {
+   "bytes": 20363,
+   "path": "demo/vendor/redaction.py",
+   "sha256": "14b779f9f53448ded3f7371f656981175e9c9eebae3b3167106bb4ed2fae207c"
+  },
+  {
+   "bytes": 18397,
+   "path": "run_demo.py",
+   "sha256": "453dac752016ac191f8186f12fb8ce3f56c7626a921d4228ba9f2e46f538fd35"
+  },
+  {
+   "bytes": 16372,
+   "path": "verify_demo.py",
+   "sha256": "67b6107453e7706009067252d920b0ddf3dff781908e4114e6ef14280151bad8"
+  }
+ ],
+ "note": "MANIFEST.json itself is not listed: a manifest cannot hash itself. output/ is generated, not shipped, and is not listed."
+}
