@@ -252,7 +252,7 @@ def check_manifest():
             check("manifest: " + path, False, "missing")
     found = set()
     for root, dirs, files in os.walk(HERE):
-        dirs[:] = [d for d in dirs if d not in ("output", "__pycache__")]
+        dirs[:] = [d for d in dirs if d not in ("output", "__pycache__", ".git", ".hg", ".svn")]
         for name in files:
             full = os.path.join(root, name)
             rel = os.path.relpath(full, HERE)

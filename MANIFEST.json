@@ -99,9 +99,9 @@
    "sha256": "453dac752016ac191f8186f12fb8ce3f56c7626a921d4228ba9f2e46f538fd35"
   },
   {
-   "bytes": 16372,
+   "bytes": 16395,
    "path": "verify_demo.py",
-   "sha256": "67b6107453e7706009067252d920b0ddf3dff781908e4114e6ef14280151bad8"
+   "sha256": "f7f147e88e080a6a6b2c4042a931468a0c950b663f90e14661da55702f858987"
   }
  ],
  "note": "MANIFEST.json itself is not listed: a manifest cannot hash itself. output/ is generated, not shipped, and is not listed."
