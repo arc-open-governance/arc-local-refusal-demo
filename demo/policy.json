@@ -1,0 +1,82 @@
+{
+  "collusion_conservative": true,
+  "decision": {
+    "by": "founder (clicked)",
+    "decided_at": "2026-11-21T10:34:00-08:00",
+    "id": "founder-decision-1-strict-defaults",
+    "text": "STRICT defaults: operator name replaced with 'the operator'; no balances in conversation; strictest combination mode; 24-hour combination window."
+  },
+  "identity": {
+    "placeholder": "the operator",
+    "pseudonymize_operator": true
+  },
+  "purposes": {
+    "conversation": {
+      "categories": [
+        "child_school",
+        "commute",
+        "document",
+        "family",
+        "finance_policy",
+        "general",
+        "neighborhood",
+        "runner_note",
+        "schedule",
+        "task",
+        "workplace"
+      ],
+      "level": "raw"
+    },
+    "household_savings_check": {
+      "categories": [
+        "derived_predicate",
+        "runner_note",
+        "task"
+      ],
+      "handler": "household_savings",
+      "level": "predicate"
+    }
+  },
+  "schema": "arc-disclosure-policy/v1",
+  "sensitive": {
+    "direct": {
+      "home_address": "home_address"
+    },
+    "rules": [
+      {
+        "requires": [
+          "child_school",
+          "schedule",
+          "workplace"
+        ],
+        "target": "home_address"
+      },
+      {
+        "requires": [
+          "commute",
+          "neighborhood",
+          "schedule"
+        ],
+        "target": "home_address"
+      },
+      {
+        "requires": [
+          "child_school",
+          "family",
+          "health"
+        ],
+        "target": "child_health_identity"
+      }
+    ]
+  },
+  "vision": {
+    "decision": {
+      "decided_at": "2026-11-21T10:44:00-08:00",
+      "id": "founder-decision-3-route-or-refuse",
+      "text": "ROUTE the laptop fallback, the phone's own provider key and vision THROUGH the Disclosure Boundary; REFUSE each (fail closed) until it is routed."
+    },
+    "message": "I didn't send that picture to any model: my disclosure policy refuses pictures until they can be routed through my boundary.",
+    "mode": "refuse"
+  },
+  "window_s": 86400
+}
